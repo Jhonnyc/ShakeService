@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class SampleActivity extends AppCompatActivity {
 
+    private static final String TAG = SampleActivity.class.getSimpleName();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
